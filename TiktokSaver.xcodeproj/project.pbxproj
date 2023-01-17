@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62EAA052811D9AF6B22F4035 /* Pods_TiktokSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92B5A743A40C6A6CFC1DB953 /* Pods_TiktokSaver.framework */; };
 		92DE6C10297485A800134DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE6C0F297485A800134DAD /* AppDelegate.swift */; };
 		92DE6C12297485A800134DAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE6C11297485A800134DAD /* SceneDelegate.swift */; };
 		92DE6C14297485A800134DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE6C13297485A800134DAD /* ViewController.swift */; };
 		92DE6C17297485A800134DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DE6C15297485A800134DAD /* Main.storyboard */; };
 		92DE6C19297485A900134DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92DE6C18297485A900134DAD /* Assets.xcassets */; };
 		92DE6C1C297485A900134DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92DE6C1A297485A900134DAD /* LaunchScreen.storyboard */; };
+		92DE6C4A2975397D00134DAD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE6C492975397D00134DAD /* ViewModel.swift */; };
+		92DE6C4C2975398600134DAD /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE6C4B2975398600134DAD /* AppModel.swift */; };
+		92DE6C4E2975398E00134DAD /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92DE6C4D2975398E00134DAD /* AppConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		357DF108E1C54440F44668B8 /* Pods-TiktokSaver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiktokSaver.debug.xcconfig"; path = "Target Support Files/Pods-TiktokSaver/Pods-TiktokSaver.debug.xcconfig"; sourceTree = "<group>"; };
+		45FDD4D60630A4F89D13C8F4 /* Pods-TiktokSaver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TiktokSaver.release.xcconfig"; path = "Target Support Files/Pods-TiktokSaver/Pods-TiktokSaver.release.xcconfig"; sourceTree = "<group>"; };
+		92B5A743A40C6A6CFC1DB953 /* Pods_TiktokSaver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TiktokSaver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DE6C0C297485A800134DAD /* TiktokSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TiktokSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92DE6C0F297485A800134DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92DE6C11297485A800134DAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		92DE6C18297485A900134DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92DE6C1B297485A900134DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92DE6C1D297485A900134DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92DE6C492975397D00134DAD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		92DE6C4B2975398600134DAD /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		92DE6C4D2975398E00134DAD /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62EAA052811D9AF6B22F4035 /* Pods_TiktokSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		436B5DD3078E3F09DC424D5F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				357DF108E1C54440F44668B8 /* Pods-TiktokSaver.debug.xcconfig */,
+				45FDD4D60630A4F89D13C8F4 /* Pods-TiktokSaver.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		85BDB45C9ED0B1A8FE6DCEC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92B5A743A40C6A6CFC1DB953 /* Pods_TiktokSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92DE6C03297485A700134DAD = {
 			isa = PBXGroup;
 			children = (
 				92DE6C0E297485A800134DAD /* TiktokSaver */,
 				92DE6C0D297485A800134DAD /* Products */,
+				436B5DD3078E3F09DC424D5F /* Pods */,
+				85BDB45C9ED0B1A8FE6DCEC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +89,9 @@
 				92DE6C0F297485A800134DAD /* AppDelegate.swift */,
 				92DE6C11297485A800134DAD /* SceneDelegate.swift */,
 				92DE6C13297485A800134DAD /* ViewController.swift */,
+				92DE6C492975397D00134DAD /* ViewModel.swift */,
+				92DE6C4B2975398600134DAD /* AppModel.swift */,
+				92DE6C4D2975398E00134DAD /* AppConfig.swift */,
 				92DE6C15297485A800134DAD /* Main.storyboard */,
 				92DE6C18297485A900134DAD /* Assets.xcassets */,
 				92DE6C1A297485A900134DAD /* LaunchScreen.storyboard */,
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92DE6C20297485A900134DAD /* Build configuration list for PBXNativeTarget "TiktokSaver" */;
 			buildPhases = (
+				96BF1CFBC645B5FAA29A9C29 /* [CP] Check Pods Manifest.lock */,
 				92DE6C08297485A800134DAD /* Sources */,
 				92DE6C09297485A800134DAD /* Frameworks */,
 				92DE6C0A297485A800134DAD /* Resources */,
+				B78F631C7697F26F4A84805A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +168,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96BF1CFBC645B5FAA29A9C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TiktokSaver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B78F631C7697F26F4A84805A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiktokSaver/Pods-TiktokSaver-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TiktokSaver/Pods-TiktokSaver-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TiktokSaver/Pods-TiktokSaver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92DE6C08297485A800134DAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +217,9 @@
 			files = (
 				92DE6C14297485A800134DAD /* ViewController.swift in Sources */,
 				92DE6C10297485A800134DAD /* AppDelegate.swift in Sources */,
+				92DE6C4A2975397D00134DAD /* ViewModel.swift in Sources */,
+				92DE6C4E2975398E00134DAD /* AppConfig.swift in Sources */,
+				92DE6C4C2975398600134DAD /* AppModel.swift in Sources */,
 				92DE6C12297485A800134DAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +362,7 @@
 		};
 		92DE6C21297485A900134DAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 357DF108E1C54440F44668B8 /* Pods-TiktokSaver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +392,7 @@
 		};
 		92DE6C22297485A900134DAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FDD4D60630A4F89D13C8F4 /* Pods-TiktokSaver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +406,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
